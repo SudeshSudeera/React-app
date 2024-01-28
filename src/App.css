@@ -1,0 +1,41 @@
+body {
+    background-color: #ecf0f1;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.user-outer {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #0c6278;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-outer {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.avatar-outer img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.user-data {
+    flex: 1;
+    padding: 10px;
+}
